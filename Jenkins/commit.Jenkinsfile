@@ -1,3 +1,6 @@
 node() {
-    stage('Download Repositoory') {}
+    stage('Download Repositoory') {
+        sh 'sleep 5'
+    }
+    
 }
