@@ -1,6 +1,6 @@
 properties([
   parameters([
-    string(name: 'submodule', defaultValue: ''),
+    string(name: 'RELEASE_VERSION', defaultValue: ''),
   ])
 ])
 
