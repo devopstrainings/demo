@@ -3,6 +3,7 @@ node() {
         sh 'sleep 10'
     }
     stage('Selenium Checking') {
-        sh 'sleep '
+        sh 'sleep 10'
     }
+    stage('')
 }
