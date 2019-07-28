@@ -8,5 +8,7 @@ node() {
     stage('Code Quality Check') {
         sh 'sleep 10'
     }
-    
+    stage('Quality Gate') {
+        sh 'sleep 10'
+    }
 }
