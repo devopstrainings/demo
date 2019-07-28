@@ -3,7 +3,9 @@ node() {
         sh 'sleep 5'
     }
     stage('Compile Code') {
-        sg 'sleep 10'
+        sh 'sleep 10'
     }
-    stage('')
+    stage('Code Quality Check') {
+
+    }
 }
