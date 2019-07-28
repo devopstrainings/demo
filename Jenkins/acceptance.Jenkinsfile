@@ -2,5 +2,7 @@ node() {
     stage('Appceptance Test') {
         sh 'sleep 10'
     }
-    stage('')
+    stage('Cut-Over') {
+        sh 'sleep 10'
+    }
 }
