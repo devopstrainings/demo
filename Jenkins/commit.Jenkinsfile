@@ -6,6 +6,7 @@ node() {
         sh 'sleep 10'
     }
     stage('Code Quality Check') {
-
+        sh 'sleep 10'
     }
+    
 }
