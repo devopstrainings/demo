@@ -6,6 +6,7 @@ node() {
         sh 'sleep 10'
     }
     stage('API Testing') {
-
+        sh 'sleep 10'
     }
+    
 }
