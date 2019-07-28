@@ -8,5 +8,7 @@ node() {
     stage('API Testing') {
         sh 'sleep 10'
     }
-    stage('')
+    stage('Upload Artifacts') {
+        sh 'sleep 10'
+    }
 }
