@@ -1,3 +1,5 @@
 node() {
-    stage('De')
+    stage('Deploy Application') {
+        
+    }
 }
