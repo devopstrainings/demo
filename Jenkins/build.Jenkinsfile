@@ -2,5 +2,7 @@ node() {
     stage('Build Package') {
         sh 'sleep 10'
     }
-    stage('')
+    stage('Selenium Checking') {
+        sh 'sleep '
+    }
 }
