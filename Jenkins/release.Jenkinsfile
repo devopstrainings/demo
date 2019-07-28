@@ -5,5 +5,7 @@ properties([
 ])
 
 node() {
-    stage
+    stage('Mark Release') {
+        
+    }
 }
