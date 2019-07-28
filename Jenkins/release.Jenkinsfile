@@ -8,5 +8,7 @@ node() {
     stage('Mark Release') {
         sh 'sleep 10'
     }
-    stage('Upload Artifacts')
+    stage('Upload Artifacts') {
+        sh 'sleep 10'
+    }
 }
