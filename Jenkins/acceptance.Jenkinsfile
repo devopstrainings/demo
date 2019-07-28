@@ -1,6 +1,6 @@
 node() {
-    stage('Appeptance Test') {
+    stage('Appceptance Test') {
         sh 'sleep 10'
     }
-    stage()
+    stage('')
 }
