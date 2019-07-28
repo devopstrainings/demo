@@ -7,8 +7,7 @@ properties([
 node() {
     stage('Deploy Application') {
         sh '''
-            echo '
-            '
+            sed -e ""
         '''
     }
 }
