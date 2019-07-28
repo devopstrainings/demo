@@ -7,7 +7,7 @@ properties([
 node() {
     stage('Deploy Application') {
         sh '''
-            sed -e "s/VER/${REL}"
+            sed -e "s/VER/${params.RELEASE_VERSION}/" /tm
         '''
     }
 }
