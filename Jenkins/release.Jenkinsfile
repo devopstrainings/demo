@@ -6,6 +6,7 @@ properties([
 
 node() {
     stage('Mark Release') {
-        
+        sh 'sleep 10'
     }
+    stage('Upload Artifacts')
 }
