@@ -11,4 +11,5 @@ node() {
     stage('Quality Gate') {
         sh 'sleep 10'
     }
+    
 }
